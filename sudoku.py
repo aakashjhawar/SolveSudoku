@@ -26,10 +26,7 @@ def display_sudoku(sudoku):
 
 def main(image_path):
     image = extract_sudoku(image_path)
-    try:
-        cv2.imshow('Sudoku', image)
-    except:
-        print('ERROR')
+    cv2.imshow('Sudoku', image)
     grid = extract_number(image)
     print('Sudoku:')
     display_sudoku(grid.tolist())
@@ -39,11 +36,11 @@ def main(image_path):
     display_sudoku(solution.tolist())
         
 if __name__ == '__main__':
-    image_path = 'images/sudoku.jpg'
-    main(image_path)
-#    try:
-#        main(image_path = sys.argv[1])
-#    except:             #    except IndexError:
-#        fmt = 'usage: {} image_path'
-#        print(fmt.format(__file__.split('/')[-1]))
-#        print('[ERROR]: Image not found')
+#    image_path = 'images/sudoku.jpg'
+#    main(image_path)
+    try:
+        main(image_path = sys.argv[1])
+    except:             #    except IndexError:
+        fmt = 'usage: {} image_path'
+        print(fmt.format(__file__.split('/')[-1]))
+        print('[ERROR]: Image not found')
