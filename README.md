@@ -28,17 +28,17 @@ How to use:
 
 Working:
 -------
-> Here's a Sudoku image from a smartphone:
+> Sudoku Image
 
 </br>
 
-> The current code gives out the following output to the Terminal:
+> Output of code
 
 
 Algorithm
 -------------
 
-> The only 3rd party libraries required are  *OpenCV, Numpy*. The Neural Network created was trained with around 250 digits. The constants used in the training phase, the training data-set is in this repository itself. 
+> Sudoku solver algorithm
 
 -------
 
