@@ -4,6 +4,9 @@ from SudokuExtractor import extract_sudoku
 from NumberExtractor import extract_number
 from SolveSudoku import sudoku_solver
 
+def output(a):
+    sys.stdout.write(str(a))
+
 def display_sudoku(sudoku):
     for i in range(9):
         for j in range(9):
@@ -36,11 +39,11 @@ def main(image_path):
     display_sudoku(solution.tolist())
         
 if __name__ == '__main__':
-#    image_path = 'images/sudoku.jpg'
-#    main(image_path)
-    try:
-        main(image_path = sys.argv[1])
-    except:             #    except IndexError:
-        fmt = 'usage: {} image_path'
-        print(fmt.format(__file__.split('/')[-1]))
-        print('[ERROR]: Image not found')
+    image_path = 'images/sudoku.jpg'
+    main(image_path)
+#    try:
+#        main(image_path = sys.argv[1])
+#    except:             #    except IndexError:
+#        fmt = 'usage: {} image_path'
+#        print(fmt.format(__file__.split('/')[-1]))
+#        print('[ERROR]: Image not found')
