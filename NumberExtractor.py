@@ -38,7 +38,7 @@ def extract_number(sudoku):
                 grid[i][j] = identify_number(image)
             else:
                 grid[i][j] = 0
-    return grid
+    return grid.astype(int)
 
 
 
