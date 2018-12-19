@@ -48,7 +48,7 @@ sudo apt-get install python-opencv
 
 
 #### Extracted grid-
-![extracted grid](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/extracted_grid.jpg)
+![extracted grid](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/extracted_grid.png)
 
 #### Solved grid-
-![Solved grid](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/solved_gird.jpg)
+![Solved grid](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/solved_gird.png)
