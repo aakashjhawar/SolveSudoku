@@ -7,9 +7,9 @@ from SolveSudoku import sudoku_solver
 def main(image_path):
     image = extract_sudoku(image_path)
     try:
-        cv2.imshow('hi', image)
+        cv2.imshow('Sudoku', image)
     except:
-        print('rerererrrroor')
+        print('ERROR')
     grid = extract_number(image)
     print(grid)
     solution = sudoku_solver(grid)
