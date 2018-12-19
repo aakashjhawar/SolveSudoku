@@ -43,6 +43,5 @@ Contour corners of Sudoku
 Warp Image
 ![Warp of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/warp.jpg)
 
-<br>
 Final output of ExtractSudoku 
 ![Final image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/final.jpg)
