@@ -17,17 +17,17 @@ How to use:
 
 Working:
 -------
-> Input image of Sudoku
+Input image of Sudoku
 ![Input image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/sudoku.jpg)
 
-> Image of Sudoku after thresholding
+Image of Sudoku after thresholding
 ![Threshold image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/threshold.jpg)
 
-> Contour corners of Sudoku
+Contour corners of Sudoku
 ![Contour of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/contour.jpg)
 
 
-> Final output of ExtractSudoku 
+Final output of ExtractSudoku 
 ![Final image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/final.jpg)
 
 Algorithm
