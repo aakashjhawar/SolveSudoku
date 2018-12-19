@@ -9,15 +9,7 @@ Prerequisites:
 -------------
 
 - Python 3.5
-    - Download from [here](https://www.python.org/downloads/)
-
 - OpenCV
-    - `sudo apt-get install python-opencv` (preferred)
-    - Install OpenCV from [here](http://opencv.org/downloads.html) 
-
-- Numpy (1.11.0)
-    - `pip install numpy` (preferred)
-    - You can build it from source [here](https://github.com/numpy/numpy)
 
 How to use: 
 ----------
