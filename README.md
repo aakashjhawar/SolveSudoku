@@ -1,20 +1,25 @@
 # SolveSudoku
 
-----------
- 
-Prerequisites:
--------------
+Extract and solv sudoku from image.
 
-- Python 3.5
-- OpenCV
+## Getting Started
 
 How to use: 
 ----------
     git clone https://github.com/aakashjhawar/SolveSudoku.git
     cd SolveSudoku
     python3 sudoku.py <path/to/input_image>
+    
+### Prerequisites
 
+- Python 3.5
+- OpenCV
+```
+sudo apt-get install python-opencv
+```
+### Algorithm
 
+### Working 
 Working:
 -------
 Input image of Sudoku
@@ -25,21 +30,6 @@ Image of Sudoku after thresholding
 
 Contour corners of Sudoku
 ![Contour of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/contour.jpg)
-
-
+<br>
 Final output of ExtractSudoku 
 ![Final image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/final.jpg)
-
-Algorithm
--------------
-
-> Sudoku solver algorithm
-
--------
-
-
-> Solved Grid:
-
-----------
-
-
