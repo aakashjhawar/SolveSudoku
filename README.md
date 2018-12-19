@@ -21,9 +21,9 @@ Prerequisites:
 
 How to use: 
 ----------
-git clone https://github.com/aakashjhawar/SolveSudoku.git
-cd SolveSudoku
-python3 sudoku.py <path/to/input_image>
+    git clone https://github.com/aakashjhawar/SolveSudoku.git
+    cd SolveSudoku
+    python3 sudoku.py <path/to/input_image>
 
 
 Working:
