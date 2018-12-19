@@ -1,6 +1,6 @@
 # SolveSudoku
-
-Extract and solv sudoku from image.
+SolveSudoku extract and solve sudoku from image. It uses a collection of basic image processing techniques and CNN for training and recognition of characters.
+CNN is trained on MNIST dataset.
 
 ## Getting Started
 
@@ -31,17 +31,17 @@ sudo apt-get install python-opencv
  > 9. Send the grid to Sudoku Solver to perform the final step.
 ### Working 
 
-Input image of Sudoku
+#### Input image of Sudoku-
 ![Input image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/sudoku.jpg)
 
-Image of Sudoku after thresholding
+#### Image of Sudoku after thresholding-
 ![Threshold image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/threshold.jpg)
 
-Contour corners of Sudoku
+#### Contour corners of Sudoku-
 ![Contour of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/contour.jpg)
 
-Warp Image
+#### Warp Image-
 ![Warp of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/warp.jpg)
 
-Final output of ExtractSudoku 
+#### Final output of ExtractSudoku-
 ![Final image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/final.jpg)
