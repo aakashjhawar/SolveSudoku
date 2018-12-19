@@ -98,5 +98,5 @@ def sudoku_solver(grid):
         print_grid(grid)
     else:
         print ("No solution exists")
-    gird = grid.astype(int)
+    grid = grid.astype(int)
     return grid

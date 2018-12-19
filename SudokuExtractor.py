@@ -308,15 +308,15 @@ def parse_grid(path):
     original = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
     processed = pre_process_image(original)
     
-    cv2.namedWindow('processed',cv2.WINDOW_AUTOSIZE)
-    processed_img = cv2.resize(processed, (500, 500))          # Resize image
+#    cv2.namedWindow('processed',cv2.WINDOW_AUTOSIZE)
+#    processed_img = cv2.resize(processed, (500, 500))          # Resize image
 #    cv2.imshow('processed', processed_img)
     
     corners = find_corners_of_largest_polygon(processed)
     cropped = crop_and_warp(original, corners)
     
-    cv2.namedWindow('cropped',cv2.WINDOW_AUTOSIZE)
-    cropped_img = cv2.resize(cropped, (500, 500))              # Resize image
+#    cv2.namedWindow('cropped',cv2.WINDOW_AUTOSIZE)
+#    cropped_img = cv2.resize(cropped, (500, 500))              # Resize image
 #    cv2.imshow('cropped', cropped_img)
     
     squares = infer_grid(cropped)

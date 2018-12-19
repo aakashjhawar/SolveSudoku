@@ -13,14 +13,13 @@ def main(image_path):
     grid = extract_number(image)
     print(grid)
     solution = sudoku_solver(grid)
-    solution = solution.astype(int) 
     print('Solution')
     print(solution)    
     
     
     
 if __name__ == '__main__':
-#    image_path = 'images/sudoku2.jpg'
+#    image_path = 'images/sudoku.jpg'
 #    main(image_path)
     try:
         main(image_path = sys.argv[1])
