@@ -1,17 +1,10 @@
 # SolveSudoku
-
-SnapSudoku
 ===================
 
-*Take a picture of a Sudoku and have SnapSudoku solve it for you!*
 
 
 ----------
- TODO:
----------
- - [ ] Improve algorithm to get better Sudoku Grid extraction, make it `more robust against blurs` .
- - [ ] Improve `empty cell detection`. Only a basic logic is used right now. 
-
+ 
 Prerequisites:
 -------------
 
