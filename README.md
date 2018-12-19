@@ -11,14 +11,14 @@ cd SolveSudoku
 python3 sudoku.py <path/to/input_image>
 ```
  
-### Prerequisites
+## Prerequisites
 
 - Python 3.5
 - OpenCV
 ```
 sudo apt-get install python-opencv
 ```
-### Procedure
+## Procedure
  > 1. Image preprocessing (Thresholding).
  > 2. Find the largest contour (sudoku square).
  > 3. Get the cordinates of **largest contour**.
@@ -29,7 +29,7 @@ sudo apt-get install python-opencv
  > 7. Remove noise in block.
  > 8. Send the number to pre trained Digit Recogition model.
  > 9. Send the grid to Sudoku Solver to perform the final step.
-### Working 
+## Working 
 
 #### Input image of Sudoku-
 ![Input image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/sudoku.jpg)
@@ -45,3 +45,10 @@ sudo apt-get install python-opencv
 
 #### Final output of ExtractSudoku-
 ![Final image of sudoku](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/final.jpg)
+
+
+#### Extracted grid-
+![extracted grid](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/extracted_grid.jpg)
+
+#### Solved grid-
+![Solved grid](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/solved_gird.jpg)
