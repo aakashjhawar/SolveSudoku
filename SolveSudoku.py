@@ -1,11 +1,15 @@
+# -*- coding: utf-8 -*-
+# GeeksForGeeks code 
+
 # A Backtracking program in Python to solve Sudoku problem 
+
 
 # A Utility Function to print the Grid 
 def print_grid(arr): 
 	for i in range(9): 
 		for j in range(9): 
-#			print (arr[i][j])
-        
+			print (arr[i][j])
+		print ('n') 
 
 # Function to Find the entry in the Grid that is still not used 
 # Searches the grid to find an entry that is still unassigned. If 
@@ -92,10 +96,12 @@ def solve_sudoku(arr):
 	# this triggers backtracking		 
 	return False
 
+
+
 # Driver main function to test above functions 
 def sudoku_solver(grid):
     if(solve_sudoku(grid)):
-#        print_grid(grid)
+        print_grid(grid)
     else:
         print ("No solution exists")
     grid = grid.astype(int)
