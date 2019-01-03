@@ -52,3 +52,5 @@ sudo apt-get install python-opencv
 
 #### Solved grid-
 ![Solved grid](https://github.com/aakashjhawar/SolveSudoku/blob/master/images/solved_grid.png)
+
+*This code is still in initial stage and require further modifications. 
