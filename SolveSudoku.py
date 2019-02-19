@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-# GeeksForGeeks code 
-
 # A Backtracking program in Python to solve Sudoku problem 
-
 
 # A Utility Function to print the Grid 
 def print_grid(arr): 
