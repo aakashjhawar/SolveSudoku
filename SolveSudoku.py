@@ -97,9 +97,9 @@ def solve_sudoku(arr):
 
 # Driver main function to test above functions 
 def sudoku_solver(grid):
-    if(solve_sudoku(grid)):
-        print('---') # print_grid(grid) -> to print the sudoku elements
-    else:
-        print ("No solution exists")
-    grid = grid.astype(int)
-    return grid
+	if(solve_sudoku(grid)):
+		print('---') # print_grid(grid) -> to print the sudoku elements
+	else:
+		print ("No solution exists")
+	grid = grid.astype(int)
+	return grid
