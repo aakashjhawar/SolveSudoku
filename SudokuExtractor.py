@@ -104,7 +104,11 @@ def pre_process_image(img, skip_dilate=False):
 
 def find_corners_of_largest_polygon(img):
 	"""Finds the 4 extreme corners of the largest contour in the image."""
-	_, contours, h = cv2.findContours(img.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)  # Find contours
+	opencv_version = cv2.__version__.split('.')[0]
+	if opencv_version == '3':
+		_, contours, h = cv2.findContours(img.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)  # Find contours
+	else:
+		contours, h = cv2.findContours(img.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)  # Find contours
 	contours = sorted(contours, key=cv2.contourArea, reverse=True)  # Sort by area, descending
 	polygon = contours[0]  # Largest image
 
