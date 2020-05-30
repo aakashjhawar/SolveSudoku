@@ -5,8 +5,10 @@ SolveSudoku extract and solve sudoku from image. It uses a collection of basic i
 CNN is trained on MNIST dataset.
 
 ## Blog
-Checkout the **article on SolveSudoku** on Medium.com 
+Checkout the **articles on SolveSudoku** on Medium.com 
+
 [Sudoku Solver using OpenCV and DL — Part 1](https://medium.com/@aakashjhawar/sudoku-solver-using-opencv-and-dl-part-1-490f08701179)
+
 [Sudoku Solver using OpenCV and DL — Part 2](https://medium.com/@aakashjhawar/sudoku-solver-using-opencv-and-dl-part-2-bbe0e6ac87c5)
 
 ## Getting Started
