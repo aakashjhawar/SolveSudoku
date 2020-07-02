@@ -1,8 +1,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 # SolveSudoku
-SolveSudoku extract and solve sudoku from image. It uses a collection of basic image processing techniques and CNN for training and recognition of characters.
-CNN is trained on MNIST dataset.
+SolveSudoku extract and solve sudoku from image. It uses a collection of image processing techniques and Convolution Neural Network for training and recognition of characters.
+CNN is trained on MNIST dataset to detect digits.
 
 ## Blog
 Checkout the **articles on SolveSudoku** on Medium.com 
