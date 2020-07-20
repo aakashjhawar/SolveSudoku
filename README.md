@@ -65,4 +65,3 @@ sudo apt-get install python-opencv
 
 
 
-[![HitCount](http://hits.dwyl.com/aakashjhawar/SolveSudoku.svg)](http://hits.dwyl.com/aakashjhawar/SolveSudoku)
